@@ -63,6 +63,14 @@ const products = [
 		description: "Jardinero confeccionado con Denim y broches en color azul indigo.",
 		size: "0, 1, 2, 3",
 	},
+	{
+		id: 1,
+		name: "Body My Little Monster",
+		price: 25000,
+		image: "src/images/Baby-Clothes01.jpg",
+		description: "Body confeccionado con jersey peinado 24.1 en colores rosa, amarillo, azul. Con estampado en DFT.",
+		size: "0, 1, 2, 3",
+	}
 ]
 
 export function getProducts() {
