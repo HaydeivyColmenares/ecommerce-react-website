@@ -64,7 +64,7 @@ const products = [
 		size: "0, 1, 2, 3",
 	},
 	{
-		id: 1,
+		id: 9,
 		name: "Body My Little Monster",
 		price: 25000,
 		image: "src/images/Baby-Clothes01.jpg",
@@ -75,4 +75,8 @@ const products = [
 
 export function getProducts() {
 	return products;
+}
+
+export function getProductById(id) {
+	return products.find((p) => p.id === Number(id));
 }
